@@ -1,0 +1,106 @@
+/* STYLE DO TOPO DA PAGINA*/
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+font-family: "Roboto", sans-serif;
+
+}
+
+/* AREA DA CRIAÇÂO DE CONTA*/ 
+.container{
+    align-items: center;
+    height: 700px;
+    width: 100%;
+}
+
+
+
+.conta{
+    border: 1px rgb(206, 206, 206) solid;
+    width: 450px;
+    margin: 0 auto;
+    padding: 0px;
+    text-align: center;
+    position: relative;
+}
+.contaImg{
+    width: 450px;
+    margin: 0 auto;
+    padding: 0px;
+    text-align: center;
+    position: relative;
+}
+.contaImg button{
+    border:none
+}
+.conta h1{
+    font-size: 2px;
+}
+
+.conta p{
+    color: grey;
+    font-size: 12px;
+    line-height: 13px
+}
+.conta p a{
+    color: rgb(29, 80, 122)
+}
+
+.conta h3{
+    color: black;
+    font-size: 15px;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.conta button{
+    width: 75%;
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    height: 40px;
+}
+#criar{
+    background-color: rgb(77, 147, 212);
+    color:white;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+#login{
+    color: rgb(77, 147, 212);
+}
+
+#conta{
+    text-align: center;
+}
+#criar:hover{
+    cursor: pointer;
+    color:white;
+}
+#criar a{
+    text-decoration: none;
+    color:white;
+}
+
+.conta a{
+    text-decoration: none;
+    color: #000;
+}
+.conta input {
+    border: none;
+    outline: none;
+    border: rgb(233, 233, 233) 1px solid;
+    width: 75%;
+    font-size: 12px;
+    height: 40px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+}
+
