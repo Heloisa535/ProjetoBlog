@@ -104,3 +104,70 @@ font-family: "Roboto", sans-serif;
     border-radius: 3px;
 }
 
+/* STYLE DO TOPO DA PAGINA */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+/* AREA DA CRIAÇÂO DE CONTA */
+.container {
+    align-items: center;
+    height: 700px;
+    width: 100%;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.conta, .image {
+
+    width: 450px;
+    margin: 0 10px;
+    padding: 0;
+    text-align: center;
+    position: relative;
+}
+
+.image img {
+    width: 400px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.conta h1 {
+    font-size: 2px;
+}
+
+.conta p {
+    color: grey;
+    font-size: 12px;
+    line-height: 13px;
+}
+
+.conta p a {
+    color: rgb(29, 80, 122);
+}
+
+.conta h3 {
+    color: black;
+    font-size: 15px;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.conta button {
+    width: 75%;
+    border: none;
+    border-radius: 30px;
+    font-size: 15
+}
