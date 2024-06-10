@@ -21,6 +21,7 @@ font-family: "Roboto", sans-serif;
 
 .conta{
     border: 1px rgb(206, 206, 206) solid;
+    border-radius: 5px;
     width: 450px;
     margin: 0 auto;
     padding: 0px;
@@ -29,14 +30,24 @@ font-family: "Roboto", sans-serif;
 }
 .contaImg{
     width: 450px;
-    margin: 0 auto;
-    padding: 0px;
+ 
     text-align: center;
-    position: relative;
+    display: flex;
+    padding-left: 1015px;
+}
+.contaImg img{
+    margin-top: -200px;
+    margin-left: 20px;
+  
 }
 .contaImg button{
-    border:none
+    border:none;
+    background-color: white;
+
+    
+
 }
+
 .conta h1{
     font-size: 2px;
 }
@@ -126,7 +137,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
+   margin-top: 100px;
 }
 
 .conta, .image {
